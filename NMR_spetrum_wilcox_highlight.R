@@ -1,6 +1,6 @@
   setwd(getwd())
   
-  if(!require("openxlsx")){install.packages("openxlsx");library(openssl)}
+  if(!require("openxlsx")){install.packages("openxlsx");library(openxlsx)}
   if (!require("ggplot2")) {install.packages("ggplot2"); library(ggplot2)}
   if (!require("reshape2")) {install.packages("reshape2"); library(reshape2)}
   if (!require("plotly")) {install.packages("plotly"); library(plotly)}
